@@ -1,4 +1,7 @@
-﻿namespace ProteinePlus
+﻿using ProteinePlus.MVVM.Views;
+using ProteinePlus.MVVM.ViewModels;
+
+namespace ProteinePlus
 {
     public partial class App : Application
     {
@@ -6,7 +9,8 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new MainPage());
+            BindingContext = new NavViewModel();
         }
     }
 }
