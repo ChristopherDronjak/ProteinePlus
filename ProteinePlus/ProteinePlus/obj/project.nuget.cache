@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7z5Ye95JI+BYrYm5IWtQhJ0ThTQwkGMQiKKM9/3l6vSPzwohDksBRpqrAoKOMfdq+/J8YtVXlSM+Ekb+WEJcGQ==",
+  "dgSpecHash": "M7m2W+VkczsIZw9ubgAqthxDlDdotjQ5bydOV4LYC2Fz589pLLTQvPEvf3L3fvGWhnI/4KJkXxoFLFJctGrjfA==",
   "success": true,
   "projectFilePath": "C:\\Users\\harra\\Desktop\\Term 4\\ProteinePlus\\ProteinePlus\\ProteinePlus\\ProteinePlus.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\harra\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\harra\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\harra\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\harra\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
