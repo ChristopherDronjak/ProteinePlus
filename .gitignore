@@ -4,3 +4,6 @@
 *.cache
 *.editorconfig
 *.user
+*.bin
+*.v2
+ProteinePlus/.vs/ProteinePlus/v17/.suo
