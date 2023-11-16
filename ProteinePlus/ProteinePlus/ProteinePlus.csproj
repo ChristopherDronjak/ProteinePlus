@@ -49,12 +49,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+	  <AndroidResource Remove="MVVM\Models\**" />
+	  <Compile Remove="MVVM\Models\**" />
+	  <EmbeddedResource Remove="MVVM\Models\**" />
+	  <MauiCss Remove="MVVM\Models\**" />
+	  <MauiXaml Remove="MVVM\Models\**" />
+	  <None Remove="MVVM\Models\**" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="MVVM\Models\" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
