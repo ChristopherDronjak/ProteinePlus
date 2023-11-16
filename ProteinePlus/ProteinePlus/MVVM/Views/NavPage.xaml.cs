@@ -25,4 +25,9 @@ public partial class NavPage : ContentPage
         Navigation.PushAsync(new HomePage());
 
     }
+
+    private void tictactoe_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new TicTacToeMain());
+    }
 }
