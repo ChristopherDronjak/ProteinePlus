@@ -11,6 +11,6 @@
                HorizontalOptions="Center"
                Margin="10" />
         <Button
-            x:Name="closeButton" Text="Close" Margin="20" Clicked=""/>
+            x:Name="closeButton" Text="Close" Margin="20" Clicked="closeButton_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>
