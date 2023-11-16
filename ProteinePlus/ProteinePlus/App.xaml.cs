@@ -1,16 +1,14 @@
 ﻿using ProteinePlus.MVVM.Views;
 using ProteinePlus.MVVM.ViewModels;
 
-namespace ProteinePlus
+namespace ProteinePlus;
+public partial class App : Application
 {
-    public partial class App : Application
+    public App()
     {
-        public App()
-        {
-            InitializeComponent();
+        InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
-            BindingContext = new NavViewModel();
-        }
+        MainPage = new NavigationPage(new NavPage());
+        BindingContext = new NavViewModel();
     }
 }
