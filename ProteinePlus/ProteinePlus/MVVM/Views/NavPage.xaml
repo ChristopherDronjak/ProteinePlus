@@ -13,6 +13,7 @@
                Margin="10" />
         <Button x:Name="closeButton" Text="Close" Margin="20" Clicked="closeButton_Clicked"/>
         <Button x:Name="HomePage" Text="Home" Margin="20" Clicked="HomePage_Clicked"/>
+        <Button x:Name="tictactoe" Text="Tic Tac Toe" Margin="20" Clicked="tictactoe_Clicked"/>
 
     </VerticalStackLayout>
 </ContentPage>
