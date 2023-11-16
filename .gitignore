@@ -21,3 +21,7 @@ ProteinePlus/ProteinePlus/obj/Debug/net7.0-android/customview-map.txt
 ProteinePlus/ProteinePlus/obj/Debug/net7.0-android/buildid.txt
 *.flat
 *.hash
+ProteinePlus/.vs/ProjectEvaluation/proteineplus.metadata.v7.bin
+ProteinePlus/.vs/ProjectEvaluation/proteineplus.projects.v7.bin
+ProteinePlus/.vs/ProteinePlus/DesignTimeBuild/.dtbcache.v2
+ProteinePlus/.vs/ProteinePlus/v17/.suo
