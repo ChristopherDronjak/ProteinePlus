@@ -9,4 +9,9 @@ public partial class NavPage : ContentPage
         InitializeComponent();
         BindingContext = _navViewModel;
     }
+
+    private void closeButton_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }
