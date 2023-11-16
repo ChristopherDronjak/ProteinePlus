@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using ProteinePlus.MVVM.Views;
+using ProteinePlus.MVVM.ViewModels;
 
 namespace ProteinePlus
 {
@@ -18,6 +20,13 @@ namespace ProteinePlus
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
+            builder.Services.AddSingleton<NavPage>();
+            builder.Services.AddSingleton<NavViewModel>();
+            
+            
+            builder.Services.AddTransient<HomePage>();
+            builder.Services.AddTransient<HomeViewModel>();
+
 
             return builder.Build();
         }
