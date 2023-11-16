@@ -1,12 +1,9 @@
-namespace ProteinePlus.MVVM.ViewModels;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 
-public class NavViewModel : ContentPage
+namespace ProteinePlus.MVVM.ViewModels
 {
-	public NavViewModel()
-	{
-		Content = new VerticalStackLayout
-		{
-
-		};
-	}
+    public partial class NavViewModel : ObservableObject
+    {
+    }
 }

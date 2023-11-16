@@ -1,16 +1,8 @@
-using System.Collections.ObjectModel;
-using System.Collections.Specialized;
-using System.Linq;
-namespace ProteinePlus.MVVM.ViewModels;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 
-public class HomeViewModel : ContentPage
+namespace ProteinePlus.MVVM.ViewModels
 {
-	public HomeViewModel()
-	{
-		Content = new VerticalStackLayout
-		{
-			
-			
-		};
-	}
+   public partial class HomeViewModel : ObservableObject
+    {
+    }
 }
