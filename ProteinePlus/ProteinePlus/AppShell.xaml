@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+
 <Shell
     x:Class="ProteinePlus.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:ProteinePlus"
-    Shell.FlyoutBehavior="Disabled">
+    Shell.FlyoutBehavior="Flyout">
 
-    <ShellContent
+    <FlyoutItem Title="Dashboard" >
+        <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="HomePage" />
 
+        <ShellContent
+        Title="Calorie Tracking"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="CalorieTrack" />
+
+        <ShellContent
+        Title="Workouts"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="WorkoutCreation" />
+    </FlyoutItem>
+    
 </Shell>
