@@ -20,12 +20,17 @@ namespace ProteinePlus
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
-            builder.Services.AddSingleton<NavPage>();
-            builder.Services.AddSingleton<NavViewModel>();
+
             
             
             builder.Services.AddTransient<HomePage>();
-            builder.Services.AddTransient<HomeViewModel>();
+            builder.Services.AddTransient<HomeViewModel>();  
+            
+            builder.Services.AddTransient<CalorieTrack>();
+            builder.Services.AddTransient<CalorieTrackViewModel>();
+
+            builder.Services.AddTransient<WorkoutCreation>();
+            builder.Services.AddTransient<WorkoutCreViewModel>();
 
 
             return builder.Build();
