@@ -3,10 +3,58 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProteinePlus.MVVM.Views.CalorieTrack"
              Title="CalorieTrack">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <StackLayout Padding="10">
+
+        <!-- About Me Header -->
+        <Label Text="About Me" HorizontalOptions="CenterAndExpand" FontSize="Title" />
+
+        <!-- User Information Form -->
+        <StackLayout>
+            <Label Text="First name:" />
+            <Entry x:Name="FirstName" Placeholder="Enter your first name" />
+            <Label Text="Last name:" />
+            <Entry x:Name="LastName" Placeholder="Enter your last name" />
+            <Label Text="Select your Gender:" />
+            <Picker x:Name="Gender">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Male</x:String>
+                        <x:String>Female</x:String>
+                        <x:String>Prefer not to say</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Label Text="Height in CM:" />
+            <Entry x:Name="Height" Placeholder="Enter your height" Keyboard="Numeric" />
+            <Label Text="Weight in KG:" />
+            <Entry x:Name="Weight" Placeholder="Enter your weight" Keyboard="Numeric" />
+            <Label Text="Date Of Birth:" />
+            <DatePicker x:Name="DateOfBirth" />
+            <Label Text="Dietary Options:" />
+            <Picker x:Name="DietaryOptions">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>n/a</x:String>
+                        <x:String>Vegetarian</x:String>
+                        <x:String>Vegan</x:String>
+                        <!-- Add other dietary options -->
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Label Text="User Activity:" />
+            <Picker x:Name="UserActivity">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Not Active</x:String>
+                        <x:String>Medium Active</x:String>
+                        <x:String>Regular Active</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <!--<Button Text="Submit" BackgroundColor="Green" Clicked="SubmitButton_Clicked" />-->
+        </StackLayout>
+
+        <!-- Image Alignment -->
+        <Image Source="Infographicfood.png" WidthRequest="450" HeightRequest="550" />
+    </StackLayout>
 </ContentPage>
