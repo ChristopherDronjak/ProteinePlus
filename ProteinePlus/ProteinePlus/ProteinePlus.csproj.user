@@ -17,13 +17,16 @@
     <MauiXaml Update="MainPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\CalorieTrack.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="MVVM\Views\HomePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\WorkoutCreation.xaml">
+    <MauiXaml Update="MVVM\Views\NavPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\TicTacToe.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\TicTacToeMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Platforms\Windows\App.xaml">
